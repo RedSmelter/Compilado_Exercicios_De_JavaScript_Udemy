@@ -4,3 +4,11 @@ class Lancamento {
         this.valor = valor
     }
 }
+
+class CicloFinanceiro {
+    constructor(mes, ano){
+        this.mes = mes
+        this.ano = ano
+        this.lancamentos = []
+    }
+}
